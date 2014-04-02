@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAE690A218EBC3CE0024CBB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE690A118EBC3CE0024CBB0 /* Foundation.framework */; };
+		DAE690A418EBC3CE0024CBB0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE690A318EBC3CE0024CBB0 /* CoreGraphics.framework */; };
+		DAE690A618EBC3CE0024CBB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE690A518EBC3CE0024CBB0 /* UIKit.framework */; };
+		DAE690AC18EBC3CE0024CBB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAE690AA18EBC3CE0024CBB0 /* InfoPlist.strings */; };
+		DAE690AE18EBC3CE0024CBB0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE690AD18EBC3CE0024CBB0 /* main.m */; };
+		DAE690B218EBC3CE0024CBB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE690B118EBC3CE0024CBB0 /* AppDelegate.m */; };
+		DAE690B518EBC3CE0024CBB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE690B318EBC3CE0024CBB0 /* Main.storyboard */; };
+		DAE690B818EBC3CE0024CBB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE690B718EBC3CE0024CBB0 /* ViewController.m */; };
+		DAE690BA18EBC3CE0024CBB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE690B918EBC3CE0024CBB0 /* Images.xcassets */; };
+		DAE690C118EBC3CF0024CBB0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE690C018EBC3CF0024CBB0 /* XCTest.framework */; };
+		DAE690C218EBC3CF0024CBB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE690A118EBC3CE0024CBB0 /* Foundation.framework */; };
+		DAE690C318EBC3CF0024CBB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE690A518EBC3CE0024CBB0 /* UIKit.framework */; };
+		DAE690CB18EBC3CF0024CBB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DAE690C918EBC3CF0024CBB0 /* InfoPlist.strings */; };
+		DAE690CD18EBC3CF0024CBB0 /* ORMExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE690CC18EBC3CF0024CBB0 /* ORMExampleTests.m */; };
+		DAE690E118EBC4100024CBB0 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE690D818EBC4100024CBB0 /* FMDatabase.m */; };
+		DAE690E218EBC4100024CBB0 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE690DA18EBC4100024CBB0 /* FMDatabaseAdditions.m */; };
+		DAE690E318EBC4100024CBB0 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE690DC18EBC4100024CBB0 /* FMDatabasePool.m */; };
+		DAE690E418EBC4100024CBB0 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE690DE18EBC4100024CBB0 /* FMDatabaseQueue.m */; };
+		DAE690E518EBC4100024CBB0 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE690E018EBC4100024CBB0 /* FMResultSet.m */; };
+		DAE690EB18EBC41E0024CBB0 /* JTEntityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE690E818EBC41E0024CBB0 /* JTEntityManager.m */; };
+		DAE690EC18EBC41E0024CBB0 /* JTUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DAE690EA18EBC41E0024CBB0 /* JTUtilities.m */; };
+		DAE690EE18EBC76B0024CBB0 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAE690ED18EBC76B0024CBB0 /* libsqlite3.0.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAE690C418EBC3CF0024CBB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAE6909618EBC3CE0024CBB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAE6909D18EBC3CE0024CBB0;
+			remoteInfo = ORMExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAE6909E18EBC3CE0024CBB0 /* ORMExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ORMExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE690A118EBC3CE0024CBB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DAE690A318EBC3CE0024CBB0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DAE690A518EBC3CE0024CBB0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DAE690A918EBC3CE0024CBB0 /* ORMExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ORMExample-Info.plist"; sourceTree = "<group>"; };
+		DAE690AB18EBC3CE0024CBB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAE690AD18EBC3CE0024CBB0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAE690AF18EBC3CE0024CBB0 /* ORMExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ORMExample-Prefix.pch"; sourceTree = "<group>"; };
+		DAE690B018EBC3CE0024CBB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAE690B118EBC3CE0024CBB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAE690B418EBC3CE0024CBB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAE690B618EBC3CE0024CBB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAE690B718EBC3CE0024CBB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAE690B918EBC3CE0024CBB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DAE690BF18EBC3CF0024CBB0 /* ORMExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ORMExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAE690C018EBC3CF0024CBB0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DAE690C818EBC3CF0024CBB0 /* ORMExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ORMExampleTests-Info.plist"; sourceTree = "<group>"; };
+		DAE690CA18EBC3CF0024CBB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DAE690CC18EBC3CF0024CBB0 /* ORMExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ORMExampleTests.m; sourceTree = "<group>"; };
+		DAE690D718EBC4100024CBB0 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		DAE690D818EBC4100024CBB0 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		DAE690D918EBC4100024CBB0 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		DAE690DA18EBC4100024CBB0 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		DAE690DB18EBC4100024CBB0 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		DAE690DC18EBC4100024CBB0 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		DAE690DD18EBC4100024CBB0 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		DAE690DE18EBC4100024CBB0 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		DAE690DF18EBC4100024CBB0 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		DAE690E018EBC4100024CBB0 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		DAE690E618EBC41E0024CBB0 /* JTConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTConfiguration.h; sourceTree = "<group>"; };
+		DAE690E718EBC41E0024CBB0 /* JTEntityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTEntityManager.h; sourceTree = "<group>"; };
+		DAE690E818EBC41E0024CBB0 /* JTEntityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTEntityManager.m; sourceTree = "<group>"; };
+		DAE690E918EBC41E0024CBB0 /* JTUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTUtilities.h; sourceTree = "<group>"; };
+		DAE690EA18EBC41E0024CBB0 /* JTUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTUtilities.m; sourceTree = "<group>"; };
+		DAE690ED18EBC76B0024CBB0 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAE6909B18EBC3CE0024CBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE690EE18EBC76B0024CBB0 /* libsqlite3.0.dylib in Frameworks */,
+				DAE690A418EBC3CE0024CBB0 /* CoreGraphics.framework in Frameworks */,
+				DAE690A618EBC3CE0024CBB0 /* UIKit.framework in Frameworks */,
+				DAE690A218EBC3CE0024CBB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE690BC18EBC3CF0024CBB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE690C118EBC3CF0024CBB0 /* XCTest.framework in Frameworks */,
+				DAE690C318EBC3CF0024CBB0 /* UIKit.framework in Frameworks */,
+				DAE690C218EBC3CF0024CBB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAE6909518EBC3CE0024CBB0 = {
+			isa = PBXGroup;
+			children = (
+				DAE690A718EBC3CE0024CBB0 /* ORMExample */,
+				DAE690C618EBC3CF0024CBB0 /* ORMExampleTests */,
+				DAE690A018EBC3CE0024CBB0 /* Frameworks */,
+				DAE6909F18EBC3CE0024CBB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAE6909F18EBC3CE0024CBB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAE6909E18EBC3CE0024CBB0 /* ORMExample.app */,
+				DAE690BF18EBC3CF0024CBB0 /* ORMExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAE690A018EBC3CE0024CBB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DAE690ED18EBC76B0024CBB0 /* libsqlite3.0.dylib */,
+				DAE690A118EBC3CE0024CBB0 /* Foundation.framework */,
+				DAE690A318EBC3CE0024CBB0 /* CoreGraphics.framework */,
+				DAE690A518EBC3CE0024CBB0 /* UIKit.framework */,
+				DAE690C018EBC3CF0024CBB0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAE690A718EBC3CE0024CBB0 /* ORMExample */ = {
+			isa = PBXGroup;
+			children = (
+				DAE690E618EBC41E0024CBB0 /* JTConfiguration.h */,
+				DAE690E718EBC41E0024CBB0 /* JTEntityManager.h */,
+				DAE690E818EBC41E0024CBB0 /* JTEntityManager.m */,
+				DAE690E918EBC41E0024CBB0 /* JTUtilities.h */,
+				DAE690EA18EBC41E0024CBB0 /* JTUtilities.m */,
+				DAE690D618EBC4100024CBB0 /* FMDatabase */,
+				DAE690B018EBC3CE0024CBB0 /* AppDelegate.h */,
+				DAE690B118EBC3CE0024CBB0 /* AppDelegate.m */,
+				DAE690B318EBC3CE0024CBB0 /* Main.storyboard */,
+				DAE690B618EBC3CE0024CBB0 /* ViewController.h */,
+				DAE690B718EBC3CE0024CBB0 /* ViewController.m */,
+				DAE690B918EBC3CE0024CBB0 /* Images.xcassets */,
+				DAE690A818EBC3CE0024CBB0 /* Supporting Files */,
+			);
+			path = ORMExample;
+			sourceTree = "<group>";
+		};
+		DAE690A818EBC3CE0024CBB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAE690A918EBC3CE0024CBB0 /* ORMExample-Info.plist */,
+				DAE690AA18EBC3CE0024CBB0 /* InfoPlist.strings */,
+				DAE690AD18EBC3CE0024CBB0 /* main.m */,
+				DAE690AF18EBC3CE0024CBB0 /* ORMExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAE690C618EBC3CF0024CBB0 /* ORMExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAE690CC18EBC3CF0024CBB0 /* ORMExampleTests.m */,
+				DAE690C718EBC3CF0024CBB0 /* Supporting Files */,
+			);
+			path = ORMExampleTests;
+			sourceTree = "<group>";
+		};
+		DAE690C718EBC3CF0024CBB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DAE690C818EBC3CF0024CBB0 /* ORMExampleTests-Info.plist */,
+				DAE690C918EBC3CF0024CBB0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DAE690D618EBC4100024CBB0 /* FMDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				DAE690D718EBC4100024CBB0 /* FMDatabase.h */,
+				DAE690D818EBC4100024CBB0 /* FMDatabase.m */,
+				DAE690D918EBC4100024CBB0 /* FMDatabaseAdditions.h */,
+				DAE690DA18EBC4100024CBB0 /* FMDatabaseAdditions.m */,
+				DAE690DB18EBC4100024CBB0 /* FMDatabasePool.h */,
+				DAE690DC18EBC4100024CBB0 /* FMDatabasePool.m */,
+				DAE690DD18EBC4100024CBB0 /* FMDatabaseQueue.h */,
+				DAE690DE18EBC4100024CBB0 /* FMDatabaseQueue.m */,
+				DAE690DF18EBC4100024CBB0 /* FMResultSet.h */,
+				DAE690E018EBC4100024CBB0 /* FMResultSet.m */,
+			);
+			path = FMDatabase;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAE6909D18EBC3CE0024CBB0 /* ORMExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE690D018EBC3CF0024CBB0 /* Build configuration list for PBXNativeTarget "ORMExample" */;
+			buildPhases = (
+				DAE6909A18EBC3CE0024CBB0 /* Sources */,
+				DAE6909B18EBC3CE0024CBB0 /* Frameworks */,
+				DAE6909C18EBC3CE0024CBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ORMExample;
+			productName = ORMExample;
+			productReference = DAE6909E18EBC3CE0024CBB0 /* ORMExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAE690BE18EBC3CF0024CBB0 /* ORMExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAE690D318EBC3CF0024CBB0 /* Build configuration list for PBXNativeTarget "ORMExampleTests" */;
+			buildPhases = (
+				DAE690BB18EBC3CF0024CBB0 /* Sources */,
+				DAE690BC18EBC3CF0024CBB0 /* Frameworks */,
+				DAE690BD18EBC3CF0024CBB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAE690C518EBC3CF0024CBB0 /* PBXTargetDependency */,
+			);
+			name = ORMExampleTests;
+			productName = ORMExampleTests;
+			productReference = DAE690BF18EBC3CF0024CBB0 /* ORMExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAE6909618EBC3CE0024CBB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jony Tran";
+				TargetAttributes = {
+					DAE690BE18EBC3CF0024CBB0 = {
+						TestTargetID = DAE6909D18EBC3CE0024CBB0;
+					};
+				};
+			};
+			buildConfigurationList = DAE6909918EBC3CE0024CBB0 /* Build configuration list for PBXProject "ORMExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAE6909518EBC3CE0024CBB0;
+			productRefGroup = DAE6909F18EBC3CE0024CBB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAE6909D18EBC3CE0024CBB0 /* ORMExample */,
+				DAE690BE18EBC3CF0024CBB0 /* ORMExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAE6909C18EBC3CE0024CBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE690BA18EBC3CE0024CBB0 /* Images.xcassets in Resources */,
+				DAE690AC18EBC3CE0024CBB0 /* InfoPlist.strings in Resources */,
+				DAE690B518EBC3CE0024CBB0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE690BD18EBC3CF0024CBB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE690CB18EBC3CF0024CBB0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAE6909A18EBC3CE0024CBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE690EB18EBC41E0024CBB0 /* JTEntityManager.m in Sources */,
+				DAE690B818EBC3CE0024CBB0 /* ViewController.m in Sources */,
+				DAE690E318EBC4100024CBB0 /* FMDatabasePool.m in Sources */,
+				DAE690B218EBC3CE0024CBB0 /* AppDelegate.m in Sources */,
+				DAE690EC18EBC41E0024CBB0 /* JTUtilities.m in Sources */,
+				DAE690E418EBC4100024CBB0 /* FMDatabaseQueue.m in Sources */,
+				DAE690AE18EBC3CE0024CBB0 /* main.m in Sources */,
+				DAE690E118EBC4100024CBB0 /* FMDatabase.m in Sources */,
+				DAE690E518EBC4100024CBB0 /* FMResultSet.m in Sources */,
+				DAE690E218EBC4100024CBB0 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAE690BB18EBC3CF0024CBB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAE690CD18EBC3CF0024CBB0 /* ORMExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAE690C518EBC3CF0024CBB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAE6909D18EBC3CE0024CBB0 /* ORMExample */;
+			targetProxy = DAE690C418EBC3CF0024CBB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAE690AA18EBC3CE0024CBB0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE690AB18EBC3CE0024CBB0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DAE690B318EBC3CE0024CBB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE690B418EBC3CE0024CBB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAE690C918EBC3CF0024CBB0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAE690CA18EBC3CF0024CBB0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAE690CE18EBC3CF0024CBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAE690CF18EBC3CF0024CBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAE690D118EBC3CF0024CBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ORMExample/ORMExample-Prefix.pch";
+				INFOPLIST_FILE = "ORMExample/ORMExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DAE690D218EBC3CF0024CBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ORMExample/ORMExample-Prefix.pch";
+				INFOPLIST_FILE = "ORMExample/ORMExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DAE690D418EBC3CF0024CBB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ORMExample.app/ORMExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ORMExample/ORMExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ORMExampleTests/ORMExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DAE690D518EBC3CF0024CBB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ORMExample.app/ORMExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ORMExample/ORMExample-Prefix.pch";
+				INFOPLIST_FILE = "ORMExampleTests/ORMExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAE6909918EBC3CE0024CBB0 /* Build configuration list for PBXProject "ORMExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE690CE18EBC3CF0024CBB0 /* Debug */,
+				DAE690CF18EBC3CF0024CBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAE690D018EBC3CF0024CBB0 /* Build configuration list for PBXNativeTarget "ORMExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE690D118EBC3CF0024CBB0 /* Debug */,
+				DAE690D218EBC3CF0024CBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAE690D318EBC3CF0024CBB0 /* Build configuration list for PBXNativeTarget "ORMExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAE690D418EBC3CF0024CBB0 /* Debug */,
+				DAE690D518EBC3CF0024CBB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAE6909618EBC3CE0024CBB0 /* Project object */;
+}
